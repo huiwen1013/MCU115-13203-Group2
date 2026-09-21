@@ -25,8 +25,8 @@ class MainActivity : ComponentActivity() {
             My1stappTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "WORLD!",
-                        modifier = Modifier.fillMaxSize().padding(innerPadding)
+                        name = "World",
+                        modifier = Modifier.padding(innerPadding).fillMaxSize()
                     )
                 }
             }
@@ -35,18 +35,15 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(
-    name: String,
-    modifier: Modifier = Modifier
-) {
+fun Greeting(name: String, modifier: Modifier = Modifier) {
     Box(
         modifier = modifier,
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "Hello $name!!!",
-            fontSize = 40.sp,
-            color = Color.Green
+            text = "Hello $name!",
+            color = Color.Green,
+            fontSize = 70.sp
         )
     }
 }
@@ -55,6 +52,6 @@ fun Greeting(
 @Composable
 fun GreetingPreview() {
     My1stappTheme {
-        Greeting("WORLD!", modifier = Modifier.fillMaxSize())
+        Greeting("Android", modifier = Modifier.fillMaxSize())
     }
 }
