@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fast Food Ordering</string>
+    <string name="title_fast_food_ordering">Fast Food Ordering</string>
+    <string name="nav_main_meal">Main Meal</string>
+    <string name="nav_side_dish">Side Dish</string>
+    <string name="nav_drink">Drink</string>
+    <string name="nav_confirm_order">Confirm Order</string>
+    <string name="btn_back_to_home">Home</string>
+    <string name="btn_next_side_dish">Next: Side Dish</string>
+    <string name="btn_next_drink">Next: Drink</string>
+    <string name="btn_next_confirm">Next: Confirm Order</string>
+    <string name="toast_incomplete_order">Please select a main meal, at least one side dish, and a drink.</string>
+    <string name="toast_order_submitted">Order submitted!</string>
+    <string name="dialog_title_submit_order">Submit Order</string>
+    <string name="dialog_btn_submit">Submit</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+</resources>

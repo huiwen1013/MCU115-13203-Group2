@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Myfastfood" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#D32F2F</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FFCDD2</item>
+        <item name="colorSecondary">#F57C00</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+    </style>
+</resources>
