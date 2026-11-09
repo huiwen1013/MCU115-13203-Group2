@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FindBack</string>
+    <string name="app_subtitle">智慧失物協尋</string>
+
+    <!-- Login / Register -->
+    <string name="login_title">歡迎使用 FindBack</string>
+    <string name="login_subtitle">協助您快速找回遺失物品</string>
+    <string name="username">帳號</string>
+    <string name="password">密碼</string>
+    <string name="nickname">暱稱</string>
+    <string name="email">電子郵件</string>
+    <string name="btn_login">登入</string>
+    <string name="btn_register">註冊帳號</string>
+    <string name="register_title">建立新帳號</string>
+    <string name="forgot_password_hint">忘記密碼？請聯絡系統管理員</string>
+    <string name="local_version_notice">註：本機教學展示版本，資料儲存於本機資料庫</string>
+
+    <!-- Home / Navigation -->
+    <string name="nav_home">首頁</string>
+    <string name="nav_search">搜尋</string>
+    <string name="nav_matching">媒合</string>
+    <string name="nav_claim">認領</string>
+    <string name="nav_profile">個人</string>
+    <string name="welcome_user">你好，%1$s！</string>
+    <string name="btn_post_lost">我要刊登遺失物</string>
+    <string name="btn_post_found">我要刊登拾獲物</string>
+    <string name="btn_smart_match">智慧媒合中心</string>
+    <string name="section_latest_lost">最新遺失物</string>
+    <string name="section_latest_found">最新拾獲物</string>
+    <string name="search_hint">輸入關鍵字搜尋物品…</string>
+
+    <!-- Item Details & Forms -->
+    <string name="title_post_lost">刊登遺失物</string>
+    <string name="title_post_found">刊登拾獲物</string>
+    <string name="item_name">物品名稱</string>
+    <string name="item_category">物品分類</string>
+    <string name="item_color">物品顏色</string>
+    <string name="item_description">物品特徵描述</string>
+    <string name="item_location">地點</string>
+    <string name="item_date">日期</string>
+    <string name="item_contact">聯絡方式</string>
+    <string name="btn_select_photo">選擇物品照片</string>
+    <string name="btn_submit">確認刊登</string>
+
+    <!-- Categories -->
+    <string-array name="categories_array">
+        <item>請選擇分類</item>
+        <item>手機／平板</item>
+        <item>錢包</item>
+        <item>證件</item>
+        <item>鑰匙</item>
+        <item>書籍／文具</item>
+        <item>衣物／配件</item>
+        <item>生活用品</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="colors_array">
+        <item>請選擇顏色</item>
+        <item>黑色</item>
+        <item>白色</item>
+        <item>灰色</item>
+        <item>紅色</item>
+        <item>藍色</item>
+        <item>綠色</item>
+        <item>黃色</item>
+        <item>棕色</item>
+        <item>粉紅色</item>
+        <item>紫色</item>
+        <item>金色</item>
+        <item>銀色</item>
+        <item>其他</item>
+    </string-array>
+
+    <!-- Search -->
+    <string name="title_search">物品搜尋</string>
+    <string name="btn_search">開始搜尋</string>
+    <string name="btn_clear_filters">清除篩選</string>
+    <string name="search_results_count">找到 %1$d 筆物品資料</string>
+    <string name="no_search_results">未找到符合條件的物品</string>
+
+    <!-- Matching -->
+    <string name="title_matching">智慧媒合結果</string>
+    <string name="matching_desc">系統根據物品分類、名稱、顏色、地點與日期進行加權比對，為您精準推薦潛在符合的物品。</string>
+    <string name="match_score">符合度：%1$d%%</string>
+    <string name="match_high">高度符合</string>
+    <string name="match_medium">中度符合</string>
+    <string name="match_low">低度符合</string>
+    <string name="btn_claim">提出認領</string>
+    <string name="no_matching_results">目前無達到符合標準的物品（最低需40分）</string>
+
+    <!-- Claim -->
+    <string name="title_claim">認領管理</string>
+    <string name="tab_my_claims">我發起的認領</string>
+    <string name="tab_received_claims">收到審核的認領</string>
+    <string name="btn_accept">接受申請</string>
+    <string name="btn_reject">拒絕申請</string>
+    <string name="btn_complete">完成找回</string>
+    <string name="claim_status_pending">等待確認</string>
+    <string name="claim_status_accepted">已接受</string>
+    <string name="claim_status_rejected">已拒絕</string>
+    <string name="claim_status_completed">已完成找回</string>
+
+    <!-- Profile -->
+    <string name="title_profile">個人中心</string>
+    <string name="my_lost_items">我的遺失物刊登紀錄</string>
+    <string name="my_found_items">我的拾獲物刊登紀錄</string>
+    <string name="my_claims_record">我的認領紀錄</string>
+    <string name="btn_edit_profile">修改個人資料</string>
+    <string name="btn_logout">登出帳號</string>
+</resources>
